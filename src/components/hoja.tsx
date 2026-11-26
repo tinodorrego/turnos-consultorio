@@ -21,7 +21,7 @@ export function BandaConsultorio() {
           <p className="condensada text-4xl leading-none font-black tracking-[-0.01em] uppercase sm:text-5xl">{CONSULTORIO.nombre}</p>
           <p className="mt-1 text-sm font-semibold text-farmacia-claro">{CONSULTORIO.rubros}</p>
         </div>
-        <address className="flex flex-col text-sm leading-snug not-italic text-farmacia-claro sm:items-end">
+        <address className="flex flex-col text-sm leading-snug not-italic text-farmacia-claro sm:ml-auto sm:items-end">
           <span>{CONSULTORIO.direccion}</span>
           <span>
             Tel. {CONSULTORIO.telefono} · {CONSULTORIO.horario}
